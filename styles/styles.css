@@ -3,6 +3,9 @@ main {
   max-width: 840px;
 }
 
+nav {
+  background-color: steelblue;
+}
 
 nav a {
   color: white;
