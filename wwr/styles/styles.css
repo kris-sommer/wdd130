@@ -57,3 +57,9 @@ h1 {
   float: right;
   width: 125px;
 }
+footer nav img {
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+}
+
