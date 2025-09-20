@@ -55,6 +55,10 @@ h1 {
 /* } had an h2 */
 }
 article {
+  border: 2px;
+  color: black;
+  border-style: solid;
+  border-color: black;
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
@@ -69,7 +73,6 @@ article {
   border-color: black;
 }
 article p {
-
 }
 footer nav img {
   width: 75px;
