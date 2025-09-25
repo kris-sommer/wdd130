@@ -120,12 +120,21 @@ section p {
 }
 .raft-img {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  /* align-items: stretch; */
+}
+figure {
+    width: 145px;
+    
 }
 .raft-img img{
   width: 150px;
+  align-items: stretch;
+  height: 90%;
+  /* align-items: stretch; */
 }
-footer {
+footer p {
+  padding-top:10px;
 }
 footer nav img {
   width: 75px;
@@ -138,5 +147,6 @@ footer nav img {
 }
 .socialmedia a {
     text-decoration: none;
+    align-items: stretch;
     
 }
