@@ -113,7 +113,7 @@ section img {
 width: 40%;
 }
 section p {
-  text-align: center;
+  text-align: left;
 }
 .sub-history {
   display: flex;
