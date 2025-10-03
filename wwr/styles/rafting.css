@@ -190,3 +190,7 @@ footer nav img {
     align-items: center;
     gap: 10px; 
 }
+.message-textarea {
+  display: flex;
+  flex-direction: column;
+}
