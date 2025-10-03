@@ -35,10 +35,10 @@ header {
     
 }
 nav {
-    display:flex;
+    display: flex;
     align-items: center;
-    
-}     
+    justify-content: flex-end;
+}   
 header a {
     text-decoration: none;
     /* display: flex;
@@ -56,19 +56,20 @@ h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   text-align: center;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   background-color: var(--accent1-color);
   color: #fff;
 }
-nav, section, article {
+/* nav, section, article {
   margin: 16px;
   padding: 8px;
-}
+} */
 
 main {
 }
 .hero {
   position: relative;
+  margin-bottom: 24px;
 }
 .hero img {
     display: block;
@@ -81,33 +82,32 @@ h1 {
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
+  background-color: #000;
   color: #fff; /* white text - make sure there is enough contrast with the background-color */
 /* } had an h2 */
 }
 article {
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff;
-  position: absolute;
-  bottom: 35%;
+    background-color: #000000b8;
+    color: #fff;
+    position: absolute;
+    bottom: 35%;
+    padding: 24px;
   
 }
 .hero article img {
   float: right;
   width: 125px;
-  border-style: solid;
-  border-color: black;
+  margin-left: 24px;
 }
 article p {
 }
 section {
-  
+  margin-bottom: 24px;
 }
 section h2 {
-
+  background-color: black;
+  margin-bottom: 24px;
+  padding: 16px 0;
 }
 section img {
 width: 40%;
@@ -117,10 +117,12 @@ section p {
 }
 .sub-history {
   display: flex;
+  margin-bottom: 24px;
+  gap: 24px;
 }
 .raft-img {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   /* align-items: stretch; */
 }
 figure {
@@ -128,16 +130,21 @@ figure {
     
 }
 .raft-img img{
-  width: 150px;
-  align-items: stretch;
+  width: 145px;
   height: 90%;
   /* align-items: stretch; */
 }
+.section-adventure {
+  margin-bottom: 24px;
+}
 footer {
-      display: flex;
+    display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 10%;
+    color: white;
+    background-color: #000;
+        margin-top: 40px;
 }
 footer p {
   padding-top:10px;
