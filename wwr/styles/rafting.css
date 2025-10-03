@@ -174,3 +174,13 @@ footer nav img {
 .row-3 {
   display: flex;
 }
+.input {
+  display: flex;
+  flex-direction: row;
+}
+.labels {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Label takes auto width, input takes remaining */
+    align-items: center;
+    gap: 10px;
+}
