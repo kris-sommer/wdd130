@@ -163,3 +163,14 @@ footer nav img {
     align-items: stretch;
     
 }
+/* * * * * */
+.about h1 {
+
+}
+.contact-info {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.row-3 {
+  display: flex;
+}
