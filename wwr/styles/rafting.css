@@ -184,3 +184,9 @@ footer nav img {
     align-items: center;
     gap: 10px;
 }
+.message-purpose {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Label takes auto width, input takes remaining */
+    align-items: center;
+    gap: 10px; 
+}
