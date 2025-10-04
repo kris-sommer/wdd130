@@ -176,6 +176,7 @@ footer nav img {
   display: flex;
   margin-bottom: 24px;
   gap: 24px;
+  justify-content: space-evenly;
 }
 .input {
   display: flex;
@@ -226,6 +227,11 @@ section  {
 .contact-page form button {
   width: 100%
 }
+.contact-page section {
+  border: 1px solid #000;
+  background-color: lightgrey;
+}
+
 .employee-profiles {
   justify-content: center;
   display: flex;
@@ -233,4 +239,8 @@ section  {
 }
 .employee-profiles img {
   width: 150px;
+}
+.contact-page figcaption{
+  text-align: center;
+  margin-top: 8px;
 }
