@@ -109,7 +109,7 @@ section .about-page h2 {
   margin-bottom: 24px;
   padding: 16px 0;
 }
-section img {
+.about-page section img {
 width: 40%;
 }
 section p {
@@ -271,4 +271,99 @@ textarea {
 .contact-page figcaption{
   text-align: center;
   margin-top: 8px;
+}
+
+/* * * * * * Trip Page * * * * * * */
+/* .trips-page {
+  background-color: #f0f0f0;
+  padding: 24px;
+} */
+.trips-page h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+}
+.trips-page h2 a {
+  text-decoration: none;
+  text-align: center;
+  background-color: blue;
+  color:white;
+  border: none;
+  padding: 10px;
+  border-radius: 9px;
+  margin-top: 10px;
+  width: 100%;
+}
+.trips-page h2 {
+  text-align: center;
+}
+.trips-page p {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 20px;
+  /* border: 1px solid #000 */
+
+}
+.trips-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-direction: row;
+  border: 1px solid #000
+}
+.trips-2 section {
+  flex-direction: row;
+  border: 1px solid #000
+}
+.trip-profiles {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+img.trip-image  {
+  max-width: 90%;
+}
+.trip-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+.trip-figure figcaption{
+  text-align: center;
+  margin-top: 8px;
+  max-width: 200px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 8px;
+    max-width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trips-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+.trips-page th, .trips-page td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+.trips-page th {
+  background-color: #eee;
+}
+.trips-page figure {
+  text-align: center;
+  width: auto;
+}
+.trips-page caption {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 1.2em;
+
 }
