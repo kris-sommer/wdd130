@@ -464,9 +464,17 @@ img.trip-image  {
   color: var(--primary-color);
 }
 .home-adventure a {
-  text-decoration: none;
-  color: #01579b;
-  font-weight: bold;
+    text-decoration: none;
+    /* color: #01579b; */
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: 1px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: bold;
 }
 .home-adventure a:hover {
   background-color: var(--secondary-color);
