@@ -475,6 +475,7 @@ img.trip-image  {
     padding: 10px;
     border-radius: 9px;
     font-weight: bold;
+    margin-top: 24px;
 }
 .home-adventure a:hover {
   background-color: var(--secondary-color);
